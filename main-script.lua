@@ -63,9 +63,10 @@ local HubTab = FirstWindow:CreateTab("Hubs", 4483362458) -- Title, Image
 local Button = HubTab:CreateButton({
    Name = "Speed Hub X",
    Callback = function()
-        
-------
-                        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CrissCross-1/MyOwnScript/refs/heads/main/SpeedHubX%20OWN%20GUI.lua"))()
+    end,
+})                     
+
 local Button = HubTab:CreateButton({
    Name = "HOHO HUB - KEY",
    Callback = function()
